@@ -1,0 +1,78 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context="com.example.jeongyoonsung.eventplanner.History">
+
+    <ImageView
+        android:id="@+id/history_data"
+        android:layout_width="match_parent"
+        android:layout_height="330px"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/history_record"/>
+
+    <TextView
+        android:id="@+id/event_count"
+        android:layout_marginTop="69dp"
+        android:layout_marginLeft="14dp"
+        android:layout_width="239px"
+        android:layout_height="wrap_content"
+        android:text="100회"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:textColor="#DC5857"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/prize_count"
+        android:layout_toRightOf="@+id/event_count"
+        android:layout_marginTop="69dp"
+        android:layout_marginLeft="7dp"
+        android:layout_width="239px"
+        android:layout_height="wrap_content"
+        android:text="100회"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:textColor="#DC5857"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/sum_won"
+        android:layout_toRightOf="@+id/prize_count"
+        android:layout_marginTop="69dp"
+        android:layout_marginLeft="7dp"
+        android:layout_width="239px"
+        android:layout_height="wrap_content"
+        android:text="100회"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:textColor="#DC5857"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/pure_won"
+        android:layout_toRightOf="@+id/sum_won"
+        android:layout_marginTop="69dp"
+        android:layout_marginLeft="7dp"
+        android:layout_width="239px"
+        android:layout_height="wrap_content"
+        android:text="100회"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:textColor="#DC5857"
+        android:gravity="center"
+        android:onClick="onClick"/>
+
+    <ListView
+        android:id="@+id/history_list"
+        android:layout_below="@+id/history_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:clickable="false"
+        android:listSelector="#00ff0000"
+        android:focusable="false"/>
+</RelativeLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+   <ImageView
+        android:id="@+id/event_plate"
+        android:layout_width="match_parent"
+        android:layout_height="300px"
+        android:src="@drawable/event_list_module"/>
+
+   <TextView
+       android:id="@+id/day_count"
+       android:layout_width="57dp"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="70.5dp"
+       android:layout_marginLeft="10dip"
+       android:gravity="center"
+       android:text="D-Day"
+       android:textSize="19sp"
+       android:textStyle="bold"
+       android:textColor="#EA5A5A"/>
+
+   <TextView
+       android:id="@+id/event_name"
+       android:layout_width="147dp"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="176dip"
+       android:layout_marginTop="18.5dip"
+       android:ellipsize="end"
+       android:singleLine="true"
+       android:text="Event name"
+       android:textSize="13sp"
+       android:textStyle="bold"/>
+
+   <TextView
+       android:id="@+id/event_company"
+       android:layout_width="147dp"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="176dip"
+       android:layout_marginTop="49dip"
+       android:ellipsize="end"
+       android:singleLine="true"
+       android:text="Event company"
+       android:textSize="13sp"
+       android:textStyle="bold"/>
+
+   <TextView
+       android:id="@+id/event_prize"
+       android:layout_width="147dp"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="176dip"
+       android:layout_marginTop="78.5dip"
+       android:ellipsize="end"
+       android:singleLine="true"
+       android:text="Event prize"
+       android:textSize="13sp"
+       android:textStyle="bold"
+       android:textColor="#EA5A5A"/>
+
+   <Button
+       android:id="@+id/event_check"
+       android:layout_width="63dp"
+       android:layout_height="88dp"
+       android:layout_marginLeft="341dip"
+       android:layout_marginTop="12dip"
+       android:background="#00ff0000"
+       android:onClick="onClick"/>
+
+</RelativeLayout>

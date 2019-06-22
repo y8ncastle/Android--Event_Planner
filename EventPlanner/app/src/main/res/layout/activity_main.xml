@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jeongyoonsung.eventplanner.MainActivity">
+
+    <ImageView
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="330px"
+        android:layout_alignParentTop="true"
+        android:background="#004EA2"
+        android:src="@drawable/home_top"/>
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tabs"
+        android:layout_below="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#004EA2"
+        app:tabIndicatorColor="#FFFFFF"
+        app:tabIndicatorHeight="6dp"
+        app:tabTextColor="#B4B5B5"
+        app:tabSelectedTextColor="#FFFFFF"
+        app:tabTextAppearance="@style/MyTabLayoutTextAppearance"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_above="@+id/bottom_category_plate"
+        android:layout_below="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout
+        android:id="@+id/bottom_category_plate"
+        android:layout_width="match_parent"
+        android:layout_height="140px"
+        android:layout_alignParentBottom="true"
+        android:background="#004EA2">
+
+        <ImageView
+            android:id="@+id/add"
+            android:layout_width="match_parent"
+            android:layout_height="140px"
+            android:background="#004EA2"
+            android:src="@drawable/event_add"
+            android:onClick="onClick"/>
+    </LinearLayout>
+   </RelativeLayout>

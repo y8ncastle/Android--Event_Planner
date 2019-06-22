@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="152px"
+        android:src="@drawable/app_design_history"/>
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="25dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="이벤트 플래너 앱 기본 정보"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="25dp"
+        android:textSize="16sp"
+        android:text="- 앱 이름 : 이벤트 플래너 (Event planner)\n- 개발자 : 정윤성 (Yoonsung, Jeong)\n- 최초 릴리즈 개발 기간 : 26일 (2018.02.13 ~ 2018.03.22 기간 중)\n- 앱 목적 : 이벤트 참여 기록 기입 및 당첨 기록 확인\n- 앱 버전 : 0.0.2v\n- 앱 적용 기기 : 갤럭시노트8 (1440 * 2960) Android 7.1.1v\n- 앱 컨텐츠 이용 최적 기간 : 2000~2099년 (21세기 한정)"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="35dp"
+        android:background="#000000"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="이벤트 플래너 개발 일지"/>
+
+    <View
+        android:id="@+id/history_border"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="5dp"
+        android:background="#000000"/>
+
+     <ScrollView
+         android:layout_below="@+id/history_border"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:layout_marginTop="35dp"
+         android:layout_marginBottom="35dp">
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical">
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:gravity="center"
+                 android:textSize="17sp"
+                 android:textStyle="bold"
+                 android:textColor="#004EA2"
+                 android:text="2018년 02월 13일"/>
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="5dp"
+                 android:gravity="center"
+                 android:textSize="16sp"
+                 android:text="앱 아이콘 추가\n첫 로딩 스플래시 이미지 추가\n인터넷, 외장 메모리 사용 권한 추가\n메인 상단 타이틀 이미지 구성\n메인 상, 하단 버튼 이미지 구성"/>
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="35dp"
+                 android:gravity="center"
+                 android:textSize="17sp"
+                 android:textStyle="bold"
+                 android:textColor="#004EA2"
+                 android:text="2018년 02월 14일"/>
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="5dp"
+                 android:gravity="center"
+                 android:textSize="16sp"
+                 android:text="메인 상단 카테고리 스와이프 뷰페이저 구성"/>
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="35dp"
+                 android:gravity="center"
+                 android:textSize="17sp"
+                 android:textStyle="bold"
+                 android:textColor="#004EA2"
+                 android:text="2018년 02월 15일"/>
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="5dp"
+                 android:gravity="center"
+                 android:textSize="16sp"
+                 android:text="메인 상단 카테고리 빈 화면 프래그먼트 구성\n메인 상단 타이틀 이미지 및 하단 버튼 크기, 앱 아이콘 수정\n설정 탭 버튼 이미지 추가"/>
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="35dp"
+                 android:gravity="center"
+                 android:textSize="17sp"
+                 android:textStyle="bold"
+                 android:textColor="#004EA2"
+                 android:text="2018년 02월 16일"/>
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="5dp"
+                 android:gravity="center"
+                 android:textSize="16sp"
+                 android:text="설정 탭 앱 버전 토스트 메시지 추가"/>
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="35dp"
+                 android:gravity="center"
+                 android:textSize="17sp"
+                 android:textStyle="bold"
+                 android:textColor="#004EA2"
+                 android:text="2018년 02월 17일"/>
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="5dp"
+                 android:gravity="center"
+                 android:textSize="16sp"
+                 android:text="설정 탭 푸시 알람 On/Off 버튼 색 수정 및 토스트 메시지 추가\n설정 탭 On/Off 버튼 탭 이동 시 색 자동 변화 방지 추가"/>
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="35dp"
+                 android:gravity="center"
+                 android:textSize="17sp"
+                 android:textStyle="bold"
+                 android:textColor="#004EA2"
+                 android:text="2018년 02월 18일"/>
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="5dp"
+                 android:gravity="center"
+                 android:textSize="16sp"
+                 android:text="설정 탭 이벤트 기록, 당첨 기록 정렬 버튼 클릭 시 색 수정 추가\n참여 이벤트 탭 이벤트 목록 커스텀 리스트뷰 그림 추가"/>
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="35dp"
+                 android:gravity="center"
+                 android:textSize="17sp"
+                 android:textStyle="bold"
+                 android:textColor="#004EA2"
+                 android:text="2018년 02월 19일"/>
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="5dp"
+                 android:gravity="center"
+                 android:textSize="16sp"
+                 android:text="참여 이벤트 탭 이벤트 추가 커스텀 다이얼로그 레이아웃 구성\n메인 탭 추가 버튼 커스텀 다이얼로그 연동 및 레이아웃 수정\n비밀번호 설정 창 레이아웃 구성"/>
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="35dp"
+                 android:gravity="center"
+                 android:textSize="17sp"
+                 android:textStyle="bold"
+                 android:textColor="#004EA2"
+                 android:text="2018년 02월 20일"/>
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="5dp"
+                 android:gravity="center"
+                 android:textSize="16sp"
+                 android:text="새로운 비밀번호 설정 창 작동 구현"/>
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="35dp"
+                 android:gravity="center"
+                 android:textSize="17sp"
+                 android:textStyle="bold"
+                 android:textColor="#004EA2"
+                 android:text="2018년 02월 21일"/>
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="5dp"
+                 android:gravity="center"
+                 android:textSize="16sp"
+                 android:text="SQLite 데이터베이스 시스템 구축\n프래그먼트 리스트뷰 구상"/>
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="35dp"
+                 android:gravity="center"
+                 android:textSize="17sp"
+                 android:textStyle="bold"
+                 android:textColor="#004EA2"
+                 android:text="2018년 02월 22일"/>
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="5dp"
+                 android:gravity="center"
+                 android:textSize="16sp"
+                 android:text="프래그먼트 커스텀 리스트뷰 구현\n앱 아이콘 변경\n스플래시 이미지 아이콘 변경\n메인 상단 타이틀 바 이미지 변경\n이벤트 목록 커스텀 리스트뷰 이미지 변경\n이미지 목록 커스텀 리스트뷰 글자수 표시 제한 추가\n이벤트 추가 다이얼로그 내용 일부 변경"/>
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="35dp"
+                 android:gravity="center"
+                 android:textSize="17sp"
+                 android:textStyle="bold"
+                 android:textColor="#004EA2"
+                 android:text="2018년 02월 23일"/>
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="5dp"
+                 android:gravity="center"
+                 android:textSize="16sp"
+                 android:text="이벤트 추가 다이얼로그 내용 입력 연동\n이벤트 추가 다이얼로그 EditText 최대 글자수 제한\nDB 이벤트, 시스템 정보 테이블 구성"/>
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="35dp"
+                 android:gravity="center"
+                 android:textSize="17sp"
+                 android:textStyle="bold"
+                 android:textColor="#004EA2"
+                 android:text="2018년 02월 25일"/>
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="5dp"
+                 android:gravity="center"
+                 android:textSize="16sp"
+                 android:text="DB 이벤트 추가, 조회 정보 구성\n이벤트 목록 - 비어있는 DB 화면 구성"/>
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="35dp"
+                 android:gravity="center"
+                 android:textSize="17sp"
+                 android:textStyle="bold"
+                 android:textColor="#004EA2"
+                 android:text="2018년 02월 26일"/>
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="5dp"
+                 android:gravity="center"
+                 android:textSize="16sp"
+                 android:text="스플래시 화면 비밀번호 연동 구상\n이벤트 목록 - AddDialog 데이터베이스 데이터 추가 연동\n이벤트 목록 초기화 실험 완료"/>
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="35dp"
+                 android:gravity="center"
+                 android:textSize="17sp"
+                 android:textStyle="bold"
+                 android:textColor="#004EA2"
+                 android:text="2018년 02월 27일"/>
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="5dp"
+                 android:gravity="center"
+                 android:textSize="16sp"
+                 android:text="스플래시 화면 DB 비밀번호 연동\n어플리케이션 전체 레이아웃 색상 변경\n당첨기록 정렬 가나다 모드 이미지 추가"/>
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="35dp"
+                 android:gravity="center"
+                 android:textSize="17sp"
+                 android:textStyle="bold"
+                 android:textColor="#004EA2"
+                 android:text="2018년 02월 28일"/>
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="5dp"
+                 android:gravity="center"
+                 android:textSize="16sp"
+                 android:text="리스트뷰 이벤트 확인 다이얼로그 구성 및 테스트"/>
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="35dp"
+                 android:gravity="center"
+                 android:textSize="17sp"
+                 android:textStyle="bold"
+                 android:textColor="#004EA2"
+                 android:text="2018년 03월 06일"/>
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="5dp"
+                 android:gravity="center"
+                 android:textSize="16sp"
+                 android:text="리스트뷰 버튼 이벤트 클릭 리스너 추가"/>
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="35dp"
+                 android:gravity="center"
+                 android:textSize="17sp"
+                 android:textStyle="bold"
+                 android:textColor="#004EA2"
+                 android:text="2018년 03월 08일"/>
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="5dp"
+                 android:gravity="center"
+                 android:textSize="16sp"
+                 android:text="어플리케이션 전체 레이아웃 색상 변경"/>
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="35dp"
+                 android:gravity="center"
+                 android:textSize="17sp"
+                 android:textStyle="bold"
+                 android:textColor="#004EA2"
+                 android:text="2018년 03월 09일"/>
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="5dp"
+                 android:gravity="center"
+                 android:textSize="16sp"
+                 android:text="메인 Tab Indicator 높이 변경"/>
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="35dp"
+                 android:gravity="center"
+                 android:textSize="17sp"
+                 android:textStyle="bold"
+                 android:textColor="#004EA2"
+                 android:text="2018년 03월 11일"/>
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="5dp"
+                 android:gravity="center"
+                 android:textSize="16sp"
+                 android:text="데이터-확인 다이얼로그 간 연동\n리스트뷰 구분 선 제거 및 형태 변환\n외장메모리 권한 삭제\n웹뷰 기능 추가\n클립보드 이용 링크복사 기능 추가"/>
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="35dp"
+                 android:gravity="center"
+                 android:textSize="17sp"
+                 android:textStyle="bold"
+                 android:textColor="#004EA2"
+                 android:text="2018년 03월 12일"/>
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="5dp"
+                 android:gravity="center"
+                 android:textSize="16sp"
+                 android:text="히스토리 리스트 뷰 구성\n확인 다이얼로그 당첨/미당첨 여부 AlertDialog 추가\n확인 다이얼로그 당첨 확인 시 DB 연동 추가 및 기존 기록 삭제"/>
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="35dp"
+                 android:gravity="center"
+                 android:textSize="17sp"
+                 android:textStyle="bold"
+                 android:textColor="#004EA2"
+                 android:text="2018년 03월 13일"/>
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="5dp"
+                 android:gravity="center"
+                 android:textSize="16sp"
+                 android:text="히스토리 리스트 뷰 - 경품 실 금액 천 단위 구분 추가\n설정 관련 DB - 기록, 추가 부분 연동\n당첨기록-DB 및 이벤트 기록 간 모든 연동 추가\n이벤트 기록, 당첨 기록 전체 초기화 기능 추가"/>
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="35dp"
+                 android:gravity="center"
+                 android:textSize="17sp"
+                 android:textStyle="bold"
+                 android:textColor="#004EA2"
+                 android:text="2018년 03월 14일"/>
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="5dp"
+                 android:gravity="center"
+                 android:textSize="16sp"
+                 android:text="이벤트 기록 정렬 기능 연동\n당첨 기록 정렬 기능 연동\nAlertDialog 연동 장치 크기 변경\n당첨 기록 경품 순 판매 이익 부분 증감 기능 추가\n앱 버전 개발자모드 - 전체 내용 초기화 기능 추가"/>
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="35dp"
+                 android:gravity="center"
+                 android:textSize="17sp"
+                 android:textStyle="bold"
+                 android:textColor="#004EA2"
+                 android:text="2018년 03월 18일"/>
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="5dp"
+                 android:gravity="center"
+                 android:textSize="16sp"
+                 android:text="웹뷰 줌 기능 추가\n앱 진동, 잠금화면 깨우기 권한 추가"/>
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="35dp"
+                 android:gravity="center"
+                 android:textSize="17sp"
+                 android:textStyle="bold"
+                 android:textColor="#004EA2"
+                 android:text="2018년 03월 19일"/>
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="5dp"
+                 android:gravity="center"
+                 android:textSize="16sp"
+                 android:text="시간별 앱 푸시 기능 추가"/>
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="35dp"
+                 android:gravity="center"
+                 android:textSize="17sp"
+                 android:textStyle="bold"
+                 android:textColor="#004EA2"
+                 android:text="2018년 03월 21일"/>
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="5dp"
+                 android:gravity="center"
+                 android:textSize="16sp"
+                 android:text="푸시 기능 버전 다운그레이드 (8.0 -> 7.1.1)\nSettings 푸시 설정 DB 연동\n앱 개발 히스토리 화면 추가"/>
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="35dp"
+                 android:gravity="center"
+                 android:textSize="17sp"
+                 android:textStyle="bold"
+                 android:textColor="#004EA2"
+                 android:text="2018년 03월 22일"/>
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="5dp"
+                 android:gravity="center"
+                 android:textSize="16sp"
+                 android:text="앱 개발 히스토리 최종 수정 - 스크롤뷰 적용\n이벤트 기록 삭제 시 동일 이름 중복 삭제 오류 수정\n이벤트 플래너 0.0.1v 릴리즈"/>
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="35dp"
+                 android:gravity="center"
+                 android:textSize="17sp"
+                 android:textStyle="bold"
+                 android:textColor="#EA5A5A"
+                 android:text="2018년 03월 26일"/>
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="5dp"
+                 android:gravity="center"
+                 android:textSize="16sp"
+                 android:text="앱 푸시 알림 시간 조정 (15시 -> 10시)\n앱 0.0.2v 업데이트 수정사항 적용 후 릴리즈"/>
+         </LinearLayout>
+    </ScrollView>
+</LinearLayout>
