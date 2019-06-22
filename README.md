@@ -17,7 +17,7 @@ http://y8ncastle.tistory.com/464 주소를 통해 확인해주세요.
 ----------
 
 
-# Android App - Event Planner
+# [Personal Project] Android App - Event Planner
 
 This is the first Android application which is made by Yoonsung, Jeong (zarch4894@naver.com). 
 It's for personal use only and this app is only compatible with Android 7.1.1v above, Galaxy Note 8.
