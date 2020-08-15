@@ -9,7 +9,7 @@
 개인적 사용을 위해 코드는 수정하셔서 이용하셔도 됩니다.
 
 만약 이 앱의 사용으로 인해 휴대폰에 발생한 문제에 대해서는 책임을 지지 않으며, 자세한 개발 사항은 제 개인 블로그에서 확인할 수 있습니다.
-http://y8ncastle.tistory.com/464 주소를 통해 확인해주세요.
+https://y8ncastle.github.io/2020/08/15/event-planner-history/ 주소를 통해 확인해주세요.
 
 최종 릴리즈 : 2018.03.26, v0.0.2
 
@@ -33,6 +33,6 @@ You can test it by modifying codes though.
 
 I'm not liable for any issues happen to phone by user's try to use.  
 The details of introducing this app is on my personal blog.
-You can check it at https://y8ncastle.tistory.com/464.
+You can check it at https://y8ncastle.github.io/2020/08/15/event-planner-history/.
 
 Final Release : 2018.03.26, v0.0.2
